@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container .top {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem  ;
+}
+
+.top p {
+    font-weight: 2rem;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.miler {
+    width: 20rem;
+    height: 15rem;
+    background:url(https://scontent.fvte2-3.fna.fbcdn.net/v/t39.30808-6/357522672_1330848311145518_1027642859564209496_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHC43QGHAldEo6EGUM87D45d_kOkftBdJN3-Q6R-0F0kzyEEtSXRfheeZsk0xE4IHscih5LIVPmKTDN2DbHMUWH&_nc_ohc=cZcX8X4WxcQAX-Ik2xz&_nc_ht=scontent.fvte2-3.fna&oh=00_AfDfk4LZdpEvaqp-fOpomDUWCOBS7JRcqG8XI2zxCA5nsQ&oe=65445156);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+.color {
+    width: 100%;
+    height: 25px;
+    background: pink;
+}
+.text p {
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px #000000;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.text p:hover{
+    backdrop-filter: blur(20px);
+}
+
+.item {
+    margin: 1rem;
+}
+ .color-top i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(236, 66, 177);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+ }
+ .color-top i:hover{
+    box-shadow: 10px 10px 50px rgb(217, 60, 147);
+    
+ }
+  
+ .onta {
+     margin-top: 11px;
+     font-size: 25px;
+     color: black;
+    }
+    
+    .text p {
+        margin-top: 1rem;
+}
+
+.miler1 {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgb(59, 58, 58);
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    background: url(https://scontent.fvte2-2.fna.fbcdn.net/v/t39.30808-6/392864096_1390974621799553_8164503172426400805_n.jpg?stp=cp6_dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGnyYAo-E6CL_uHI-G4u_S8NbX06IDrA_k1tfTogOsD-USRfmxMpTH5P83q9Ki6gDKdCkeFcO6UebJkap5dhvH4&_nc_ohc=rWS9iwid36sAX868Dwi&_nc_ht=scontent.fvte2-2.fna&oh=00_AfB4DLdxNZqGPNQL_4AT1K46JZX50HndVWiZlEiJ11Km7g&oe=65413C3F);
+background-size: cover;
+background-position-y: bottom;
+background-position-x:center ;
+}
+
+.color1 {
+    width: 100%;
+    height: 25px;
+    background: rgb(3, 213, 255);
+}
+
+.item1 {
+    margin: 1rem;
+
+}
+.text1 p {
+    font-weight: lighter;
+    text-shadow: 2px 2px 4px #000000;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.text1 p:hover{
+    backdrop-filter: blur(20px);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 1rem;
+}
+
+ /* gldjgsldf; */
+ .color-top1 i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(3, 213, 255);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    cursor: pointer;
+ }
+ .color-top1 i:hover{
+    box-shadow: 10px 10px 50px rgb(60, 184, 242);
+ }
+ /* miller1 */
+.miler2 {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgb(59, 58, 58);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.color2 {
+    width: 100%;
+    height: 25px;
+    background: green;
+}
+
+.item2 {
+    margin: 1rem;
+}
+
+.color-top2 {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 50%;
+    position: relative;
+}
+.alll2 i{
+    position: absolute;
+    padding: 2px;
+    left:3px;
+    top: 5px;
+    font-size: 2rem;
+    color: #fff;
+}
+
+ /* two thing */
+ .miler3 {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgb(59, 58, 58);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.color3 {
+    width: 100%;
+    height: 25px;
+    background: rgb(44, 40, 255);
+}
+
+.item3 {
+    margin: 1rem;
+}
+
+.color-top3 {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(44, 40, 255);
+    border-radius: 50%;
+    position: relative;
+}
+.alll3 i{
+    position: absolute;
+    padding: 2px;
+    left:8px;
+    top: 8px;
+    font-size: 2rem;
+    color: #fff;
+}
+/* fire */
+.miler5 {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgb(59, 58, 58);
+    border-radius: 0px 0px 10px 10px;
+}
+.color5 {
+    width: 100%;
+    height: 25px;
+    background: rgb(250, 1, 204);
+}
+
+.item5 {
+    margin: 1rem;
+}
+
+.color-top5 {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 1, 204);
+    border-radius: 50%;
+    position: relative;
+}
+.alll5 i{
+    position: absolute;
+    padding: 2px;
+    left:3px;
+    top: 8px;
+    font-size: 2rem;
+    color: #fff;
+}
+/* four thing */
+ .miler4 {
+    width: 20rem;
+    height: 15rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgb(59, 58, 58);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.color4 {
+    width: 100%;
+    height: 25px;
+    background: rgb(96, 0, 128);
+}
+
+.item4 {
+    margin: 1rem;
+}
+
+.color-top4 {
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(96, 0, 128);
+    border-radius: 50%;
+    position: relative;
+}
+.alll4 i{
+    position: absolute;
+    padding: 2px;
+    left:3px;
+    top: 8px;
+    font-size: 2rem;
+    color: #fff;
+}
+.allll1{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+ 
+@media screen and (max-width:970px){
+   .all{
+       grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media screen and (max-width:640px) {
+   .all{
+       grid-template-columns: repeat(1, 1fr);
+       margin: 0px auto;
+   }
+}
+@media screen and (max-width:970px){
+    .allll1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ @media screen and (max-width:640px) {
+    .allll1{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px auto;
+    }
+    .miler4, .miler3, .miler2, .miler1, .miler5, .miler {
+        margin: 2rem;
+    }
+ }
+ .contact a{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    padding: 8px 2rem;
+    background-color: #b20c29;
+    border-radius: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+ }
+ 
